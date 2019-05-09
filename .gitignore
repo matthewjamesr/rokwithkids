@@ -1,4 +1,4 @@
 *.scss
 *.css.map
 *.md
-/bootstrap/site/*
+/bower_components/bootstrap/site/*
