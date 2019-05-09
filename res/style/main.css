@@ -17,6 +17,28 @@ nav a:link, nav a:visited {
   color: #e4f1fe;
 }
 
+footer {
+  background: #22a7f0;
+  color: #e4f1fe;
+  padding: 15px;
+  margin: -15px;
+}
+footer a:link, footer a:visited {
+  color: #e4f1fe;
+}
+footer .brand-alt {
+  margin: 0px 20px 0px 20px;
+}
+footer .brand-alt i {
+  margin: 0px;
+}
+footer ul {
+  display: inline;
+}
+footer ul li {
+  display: inline;
+}
+
 .intro {
   position: absolute;
   top: 0px;
@@ -24,7 +46,7 @@ nav a:link, nav a:visited {
   width: 100%;
   height: 60%;
   min-height: 300px;
-  padding: 15px;
+  padding: 55px;
   background: #22a7f0;
   color: #e4f1fe;
 }
@@ -36,6 +58,41 @@ nav a:link, nav a:visited {
 }
 .intro .content i {
   font-size: 60pt;
+}
+
+.row {
+  padding: 50px;
+}
+
+.row-alternate {
+  background: #db0a5b;
+}
+
+.content-path {
+  position: absolute;
+  top: 60%;
+  left: 0px;
+  min-width: 100%;
+  text-align: center;
+}
+.content-path .box {
+  margin: 10px auto;
+  border: 1px solid #e4f1fe;
+  border-radius: 10px;
+  padding: 15px;
+  max-width: 600px;
+}
+.content-path .box hr {
+  background: #e4f1fe;
+  width: 75%;
+  margin-bottom: 20px;
+}
+.content-path .box .btn {
+  background: #db0a5b;
+  color: #e4f1fe;
+}
+.content-path .box .btn:hover {
+  background: #c30951;
 }
 
 /*# sourceMappingURL=main.css.map */
